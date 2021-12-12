@@ -22,8 +22,11 @@
 
 # 3. 结果
 如图，左边是形成的LaTeX文本，右边是编译后的pdf文件
-![左边是形成的LaTeX文本，右边是编译后的pf文件](https://img-blog.csdnimg.cn/20210602214816742.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjE5MTAzMw==,size_16,color_FFFFFF,t_70)
-# 4.Reference
+![左边是形成的LaTeX文本，右边是编译后的pf文件](https://raw.githubusercontent.com/HuimingPan/Vocabularies-Notebook/main/demonstration.png)
+
+# 4.待改进
+在`get_word.py`里面对HTML文件的解析是一步一步试出来，这是因为本人还没有去学习正则表达式，不能运用这一工具来解决。我希望后面会改进这一部分内容。本人水平有限，程序中有很多粗鄙的地方，欢迎各种友善意见。
+# 5.参考
 [1] 如何利用Python + Latex完成每日实验记录？https://zhuanlan.zhihu.com/p/364018866
 
 [2] 利用PYTHON 爬虫爬出自己的英语单词库.https://www.jianshu.com/p/8a93198316ed
