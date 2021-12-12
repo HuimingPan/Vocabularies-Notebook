@@ -10,7 +10,7 @@ from latex import latex_init,add_word
 import os
 
 filedir = '../Words and Notebooks'
-foldname='demo'
+foldname='demo/'
 filename='demo.txt'
 title=filename[:-4]
 filepath=os.path.join(filedir,foldname,filename)
@@ -37,6 +37,7 @@ for word in words:
     add_word(doc,Word(word))
     
 
-doc.generate_tex()
-doc.generate_pdf(compiler='xelatex')
+
+doc.generate_pdf(filepath=os.path.join(filedir,foldname),compiler='xelatex')
+doc.generate_tex(filepath=os.path.join(filedir,foldname))
 print("Done!")

@@ -170,7 +170,8 @@ def trans_adjust(trans,addi,specials):
     'PHRASAL VERB':'<span class="additional" title="动词词组">PHRASAL VERB</span>',\
         
     'the INTERNET DOMAIN NAME for':'<span class="additional">the INTERNET DOMAIN NAME for</span>',\
-    '\t':'\t'}
+    '\t':'\t',\
+    'INTERJ':'INTERJ'}
     replace_list=["\t","\n","  ","   ","<b>","</b>","<p>","</p>","</a>",\
                   '<span class="additional">','</span>'] 
     trans=trans.replace(replace_dict[addi],addi+" ")
