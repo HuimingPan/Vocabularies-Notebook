@@ -21,7 +21,6 @@ class Entry():
         
 class Word():
     def __init__(self,word):
-        
         self.spelling=word
         self._get_page()
         self._get_spelling()
