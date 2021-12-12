@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun  1 14:56:50 2021
-
-@author: William
-"""
-
 from get_word import Word
 from latex import latex_init,add_word
 import os
