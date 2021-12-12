@@ -10,8 +10,8 @@ from latex import latex_init,add_word
 import os
 
 filedir = '../Words and Notebooks'
-foldname='Paper-Microinjections'
-filename='words.txt'
+foldname='demo'
+filename='demo.txt'
 title=filename[:-4]
 filepath=os.path.join(filedir,foldname,filename)
 def read_wordsfile(filepath,sort=False,duplicate=False):
